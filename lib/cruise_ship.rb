@@ -11,4 +11,5 @@ def select_winner(hash)
   if suite == "suite_a" && name[0] == "A"
     return name
   end
+  }
 end  
