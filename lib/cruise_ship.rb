@@ -6,3 +6,9 @@
 # suite_e: "Crumpet the Elf"
 # }
 
+def select_winner(hash)
+  hash.each{|suite, name|
+  if suite == "suite_a" && name[0] == "A"
+    return name
+  end
+end  
