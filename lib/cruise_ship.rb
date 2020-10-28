@@ -8,7 +8,7 @@
 
 def select_winner(hash)
   hash.each{|suite, name|
-  if suite == "suite_a" && name[0] == "A"
+  if suite == :suite_a && name[0] == "A"
     return name
   end
   }
