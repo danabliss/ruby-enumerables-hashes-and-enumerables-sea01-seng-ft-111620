@@ -4,3 +4,6 @@
 #   "Amanda" => 27
 # }
 
+def happy_birthday(kids)
+  kids.each{|name, age| puts "Happy Birthday #{name}! You are now #{age} years old!"}
+end  
